@@ -1,0 +1,32 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "private": false,
+  "description": "CLI for getting weather",
+  "main": "index.js",
+  "bin": "./index.js",
+  "os": ["win"],
+  "engines": {
+    "node": ">14"
+  },
+  "funding": "https://mysite.ru/donate",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Anton White",
+  "license": "ISC",
+  "homepage": "https://mysite.ru",
+  "repository": {
+    "type": "git",
+    "url": "https://mysite.ru"
+  },
+  "bugs":{
+    "url":"https://mysite.ru",
+    "email": "mysite@mail.ru"
+  }
+}
