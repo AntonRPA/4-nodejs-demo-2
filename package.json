@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "private": false,
   "description": "CLI for getting weather",
-  "main": "index.js",
-  "bin": "./index.js",
-  "os": ["win"],
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
   "engines": {
     "node": ">14"
   },
@@ -25,8 +27,11 @@
     "type": "git",
     "url": "https://mysite.ru"
   },
-  "bugs":{
-    "url":"https://mysite.ru",
+  "bugs": {
+    "url": "https://mysite.ru",
     "email": "mysite@mail.ru"
+  },
+  "dependencies": {
+    "axios": "^0.21.4"
   }
 }
