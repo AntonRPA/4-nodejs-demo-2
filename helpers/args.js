@@ -11,7 +11,7 @@ const getArgs = (args) => {
 			else if(array[index + 1].charAt(0) != '-') {
 				res[value.substring(1)] = array[index + 1];
 			} 
-			//Если после этого еще есть элемент с дефисом, то присваиваем ему true. Например: "-s -h"
+			//Если после этого еще есть элемент с дефисом, то присваиваем ему true. Например: "-h"
 			else {
 				res[value.substring(1)] = true;
 			}
